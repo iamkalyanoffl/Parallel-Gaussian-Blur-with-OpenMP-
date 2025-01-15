@@ -5,3 +5,33 @@ Parallel programming is essential in modern computing for performance  improveme
 
 Gaussian Blur is a convolution image processing technique used as a preprocessing stage of many computer vision algorithms used for smoothing an image by blending pixel values based on a Gaussian function, thus 
 effectively reducing noise and detail. 
+
+---
+
+## Features  
+- Parallelized Gaussian Blur using OpenMP directives.  
+- Efficient processing of large images.  
+- Key OpenMP constructs used:
+  - `#pragma omp parallel for`  
+  - `#pragma omp task`  
+- A 3x3 Gaussian Kernel for image convolution.  
+
+---
+
+## Code  
+- Written in **C++** with **OpenCV** for image handling.  
+- OpenMP is used to parallelize the loop structure for better performance.  
+
+---
+
+## Setup and Usage  
+
+### Prerequisites  
+- **OpenCV**: Install using the following command:  
+  ```bash
+  sudo apt-get install libopencv-dev
+  Run the Program
+  
+### Run the compiled program:
+```bash
+./gaussian_blur

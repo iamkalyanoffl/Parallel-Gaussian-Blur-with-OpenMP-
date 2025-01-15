@@ -28,18 +28,17 @@ effectively reducing noise and detail.
 
 ### Prerequisites  
 #### Clone the Repository
-Clone the project using:
 ```bash
 git clone https://github.com/your_username/Parallel-Gaussian-Blur-OpenMP.git
 cd Parallel-Gaussian-Blur-OpenMP
 
 ```bash
-Copy code
+
 g++ -fopenmp gaussian_blur.cpp -o gaussian_blur `pkg-config --cflags --libs opencv4`
 - **OpenCV**: Install using the following command:  
-  ```bash
-  sudo apt-get install libopencv-dev
-  Run the Program
+
+```bash
+sudo apt-get install libopencv-dev
   
 ### Run the compiled program:
 ```bash

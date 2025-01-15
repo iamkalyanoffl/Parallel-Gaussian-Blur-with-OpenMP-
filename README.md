@@ -24,6 +24,24 @@ effectively reducing noise and detail.
 
 ---
 
+## Features to Add
+- Dynamic adjustment of kernel size and sigma value.
+- Support for grayscale images.
+- Enhanced performance through OpenMP scheduling techniques.
+- Integration of a GUI for image visualization.
+
+  ---
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+## Contributors
+Kalyan Sudarsan 
+Priyadarshan Chandra Mohan 
+Jaffer Shakeeb Faizaan 
+
 ## Setup and Usage  
 
 ### Prerequisites  
@@ -43,3 +61,5 @@ sudo apt-get install libopencv-dev
 ### Run the compiled program:
 ```bash
 ./gaussian_blur
+
+
